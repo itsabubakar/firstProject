@@ -1,0 +1,136 @@
+#topNav{
+  height: 20px;
+  padding-top: 13px;
+}
+
+#botNav{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.leftSide{
+  float: left;
+}
+.rightSide{
+  float: right;
+  padding-right: 5px;
+}
+.botLeft{
+  float: left;
+}
+.botRight{
+  float: right;
+  padding-right: 10px;
+}
+
+.Squaggle{
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -119px -42px;
+  height: 30px;
+  width: 30px;
+}
+
+.Icon{
+  background-image: url(https://lh3.googleusercontent.com/-4MgD4NdPyBw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rew1ZIzU4VeIST0PScYly8QD9FPNg.CMID/s32-c/photo.jpg);
+  position: relative;
+  height: :32px;
+  width: 21px;
+  z-index: 0;
+  border-radius: 50%;
+  display: block;
+  margin-top: -8px;
+  overflow: hidden;
+  opacity: unset;
+}
+
+li a{
+      display: inline-block;
+      padding-left: 15px;
+      color: #000;
+      opacity: 0.75;
+      text-decoration: none;
+      font-family: arial,sans-serif;
+      font-size: 13px;
+
+}
+
+#imageWrap{
+height: 233px;
+margin-top: 89px;
+}
+#googleImage {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 220px;
+width: 457px;
+}
+.searchBar{
+margin-left: auto;
+margin-right: auto;
+border-radius: 24px;
+border: 1px solid #dfe1e5;
+height: 44px;
+width: 582px;
+}
+#googleSearch{
+
+    font: 16px arial,sans-serif;
+    box-shadow: none;
+    width: 487px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+#magnifyGlass{
+
+height: 20px;
+width: 20px;
+fill: #9AA0A6;
+position: relative;
+top: 10px;
+left: 16px;
+
+}
+#microphone{
+position: relative;
+height: 24px;
+width: 24px;
+left: 26px;
+top: 10px;
+}
+.buttons{
+text-align: center;
+padding-top: 30px;
+}
+.buttonStyle{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+
+}
